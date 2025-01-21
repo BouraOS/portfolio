@@ -15,7 +15,7 @@ export function Navbar() {
     >
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link to="/" className="text-xl font-bold">
-          Portfolio
+          BouraOS
         </Link>
 
         <div className="hidden md:flex items-center space-x-6">
@@ -25,9 +25,9 @@ export function Navbar() {
               to={item.path}
               className={cn(
                 "flex items-center space-x-1 text-sm font-medium transition-colors hover:text-primary",
-                location.pathname === item.path
+                location?.pathname === item?.path
                   ? "text-primary"
-                  : "text-muted-foreground"
+                  : "text-dark"
               )}
             >
               {/* <item.icon className="h-4 w-4" /> */}

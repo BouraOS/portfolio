@@ -44,7 +44,7 @@ export function Bio() {
               </Link>
               <Link
                 to="/projects"
-                className="inline-flex items-center px-6 py-3 bg-orange-500 text-primary-foreground rounded-lg hover:bg-orange-600 transition-colors gap-1"
+                className="inline-flex items-center px-6 py-3 bg-secondary text-primary-foreground rounded-lg hover:bg-secondary/90 transition-colors gap-1"
               >
                 Download CV
                 <IconDownload width={16} height={16}/>

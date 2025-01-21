@@ -12,7 +12,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
       viewport={{ once: true }}
-      className="group relative overflow-hidden rounded-2xl border border-border shadow-md  bg-gray-800/10 hover:bg-gray-800/20"
+      className="group relative overflow-hidden rounded-2xl border border-border shadow-md  bg-gray-800/20 hover:bg-gray-800/30"
     >
       <div className="aspect-video overflow-hidden">
         <img
