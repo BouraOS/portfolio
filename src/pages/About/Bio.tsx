@@ -37,12 +37,17 @@ export function Bio() {
               Get in touch
               {/* <ArrowRight className="ml-2 h-4 w-4" /> */}
             </Link>
-            <Link
-              to="/projects"
+            <button
+              onClick={() => {
+                window.open(
+                  'https://drive.google.com/file/d/1a_tNWmcC2lBD7yAmSTmMPp7fTotn05bZ/view?usp=sharing',
+                  '_blank',
+                );
+              }}
               className="inline-flex items-center px-6 py-3 bg-secondary text-primary-foreground rounded-lg hover:bg-secondary/90 transition-colors gap-1">
               Download CV
               <IconDownload width={16} height={16} />
-            </Link>
+            </button>
           </div>
         </div>
       </div>
