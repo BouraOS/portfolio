@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
 export default function Footer() {
   return (
@@ -6,13 +6,12 @@ export default function Footer() {
       initial={{ opacity: 0, x: -20 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.5 }}
-      className="mt-4 bg-background/80 backdrop-blur-sm border-t"
-    >
+      className="mt-4 bg-background/80 backdrop-blur-sm border-t">
       <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
         <span className="text-sm text-muted-foreground sm:text-center">
-          © 2023{" "}
+          © {new Date().getFullYear()}{' '}
           <a href="https://flowbite.com/" className="hover:underline">
-            Flowbite™
+            BouraOS
           </a>
           . All Rights Reserved.
         </span>

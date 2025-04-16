@@ -22,3 +22,9 @@ export interface SocialLink {
   url: string;
   icon: React.ReactNode;
 }
+
+export interface Service {
+  Icon: string;
+  Title: string;
+  Description: string;
+}
