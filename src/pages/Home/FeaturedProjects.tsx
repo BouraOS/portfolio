@@ -10,7 +10,7 @@ const featuredProjects: Project[] = [
     description: 'A modern e-commerce platform built with Next.js and Stripe',
     image: taskManager,
     demoUrl: 'https://example.com',
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/BouraOS',
     technologies: ['Next.js', 'TypeScript', 'Stripe', 'Tailwind CSS'],
   },
   {
@@ -20,7 +20,7 @@ const featuredProjects: Project[] = [
     description: 'Collaborative task management application with real-time updates',
     image: taskManager,
     demoUrl: 'https://example.com',
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/BouraOS',
     technologies: ['React', 'Firebase', 'Material-UI', 'Redux'],
   },
   {
@@ -30,7 +30,7 @@ const featuredProjects: Project[] = [
     description: 'Collaborative task management application with real-time updates',
     image: taskManager,
     demoUrl: 'https://example.com',
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/BouraOS',
     technologies: ['React', 'Firebase', 'Material-UI', 'Redux'],
   },
   {
@@ -40,7 +40,7 @@ const featuredProjects: Project[] = [
     description: 'Collaborative task management application with real-time updates',
     image: taskManager,
     demoUrl: 'https://example.com',
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/BouraOS',
     technologies: ['React', 'Firebase', 'Material-UI', 'Redux'],
   },
   {
@@ -50,7 +50,7 @@ const featuredProjects: Project[] = [
     description: 'Collaborative task management application with real-time updates',
     image: taskManager,
     demoUrl: 'https://example.com',
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/BouraOS',
     technologies: ['React', 'Firebase', 'Material-UI', 'Redux'],
   },
   {
@@ -60,7 +60,7 @@ const featuredProjects: Project[] = [
     description: 'Collaborative task management application with real-time updates',
     image: taskManager,
     demoUrl: 'https://example.com',
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/BouraOS',
     technologies: ['React', 'Firebase', 'Material-UI', 'Redux'],
   },
 ];
